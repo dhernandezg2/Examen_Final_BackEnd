@@ -5,9 +5,8 @@ export type restaurantModel = {
     nombre: string,
     direccion: string,
     ciudad:string,
-    pais:string
     telefono: string,
-    timezone: string
+    
 }
 
 export type ApiTelefono = {

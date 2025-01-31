@@ -11,8 +11,8 @@ export const schema =`#graphql
     }
     
     type Query{
-       getRestaurant(id:ID!): restaurant!
-       getRestaurants(ciudad: String!): [restaurant]
+       getRestaurant(id:ID!): restaurant
+       getRestaurants(ciudad: String!): restaurant
     }
 
     type Mutation {
