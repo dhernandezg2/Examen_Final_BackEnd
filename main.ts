@@ -49,4 +49,3 @@ const { url } = await startStandaloneServer(server, {
   listen: { port: 8080 }
 });
 console.info(`Server ready at ${url}`);
-
